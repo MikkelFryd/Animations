@@ -1,0 +1,274 @@
+@-webkit-keyframes animateCats1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animateCats1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animateCats2 {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes animateCats2 {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes animateCats3 {
+  0% {
+    -webkit-transform: rotate(0.5turn);
+            transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes animateCats3 {
+  0% {
+    -webkit-transform: rotate(0.5turn);
+            transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes animateCats4 {
+  0% {
+    -webkit-transform: skew(40deg, 30deg);
+            transform: skew(40deg, 30deg);
+  }
+  100% {
+    -webkit-transform: skew(5deg, 10deg);
+            transform: skew(5deg, 10deg);
+  }
+}
+
+@keyframes animateCats4 {
+  0% {
+    -webkit-transform: skew(40deg, 30deg);
+            transform: skew(40deg, 30deg);
+  }
+  100% {
+    -webkit-transform: skew(5deg, 10deg);
+            transform: skew(5deg, 10deg);
+  }
+}
+
+@-webkit-keyframes animateCats5 {
+  0% {
+    border-radius: 100%;
+  }
+  100% {
+    border-radius: 25%;
+  }
+}
+
+@keyframes animateCats5 {
+  0% {
+    border-radius: 100%;
+  }
+  100% {
+    border-radius: 25%;
+  }
+}
+
+@-webkit-keyframes animateCats6 {
+  0% {
+    -webkit-transform: translateX(10vw);
+            transform: translateX(10vw);
+  }
+  100% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+}
+
+@keyframes animateCats6 {
+  0% {
+    -webkit-transform: translateX(10vw);
+            transform: translateX(10vw);
+  }
+  100% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+}
+
+@-webkit-keyframes animateCats7 {
+  0% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+}
+
+@keyframes animateCats7 {
+  0% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+}
+
+@-webkit-keyframes animateCats8 {
+  0% {
+    -webkit-transform: translateY(10vw);
+            transform: translateY(10vw);
+  }
+  100% {
+    -webkit-transform: translateY(0vw);
+            transform: translateY(0vw);
+  }
+}
+
+@keyframes animateCats8 {
+  0% {
+    -webkit-transform: translateY(10vw);
+            transform: translateY(10vw);
+  }
+  100% {
+    -webkit-transform: translateY(0vw);
+            transform: translateY(0vw);
+  }
+}
+
+@-webkit-keyframes animateCats9 {
+  0% {
+    -webkit-transform: rotateX(20deg);
+            transform: rotateX(20deg);
+  }
+  100% {
+    -webkit-transform: rotateX(50deg);
+            transform: rotateX(50deg);
+  }
+}
+
+@keyframes animateCats9 {
+  0% {
+    -webkit-transform: rotateX(20deg);
+            transform: rotateX(20deg);
+  }
+  100% {
+    -webkit-transform: rotateX(50deg);
+            transform: rotateX(50deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#catcontainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  margin-left: 20%;
+}
+
+#catcontainer #cat1 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 2s ease-in 0s 1 animateCats1;
+          animation: 2s ease-in 0s 1 animateCats1;
+}
+
+#catcontainer #cat2 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 3s ease-in 0.5s 1 animateCats2;
+          animation: 3s ease-in 0.5s 1 animateCats2;
+}
+
+#catcontainer #cat3 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 4s ease-in 1s 1 animateCats3;
+          animation: 4s ease-in 1s 1 animateCats3;
+}
+
+#catcontainer #cat4 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 5s ease-in 1.5s 1 animateCats4;
+          animation: 5s ease-in 1.5s 1 animateCats4;
+}
+
+#catcontainer #cat5 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 3s ease-in 2s 1 animateCats5;
+          animation: 3s ease-in 2s 1 animateCats5;
+}
+
+#catcontainer #cat6 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 8s ease-in 2.5s 1 animateCats6;
+          animation: 8s ease-in 2.5s 1 animateCats6;
+}
+
+#catcontainer #cat7 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 5s ease-in 3s 1 animateCats7;
+          animation: 5s ease-in 3s 1 animateCats7;
+}
+
+#catcontainer #cat8 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 6s ease-in 3.5s 1 animateCats8;
+          animation: 6s ease-in 3.5s 1 animateCats8;
+}
+
+#catcontainer #cat9 {
+  width: 20vw;
+  height: 30vh;
+  -webkit-animation: 8s ease-in 4s 1 animateCats9;
+          animation: 8s ease-in 4s 1 animateCats9;
+}
+/*# sourceMappingURL=main.css.map */

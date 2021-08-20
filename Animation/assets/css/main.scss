@@ -1,0 +1,138 @@
+@keyframes animateCats1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes animateCats2 {
+    0% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes animateCats3 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+    100% {
+        transform: rotate(1turn)
+    }
+}
+@keyframes animateCats4 {
+    0% {
+        transform: skew(40deg, 30deg);
+    }
+    100% {
+        transform: skew(5deg, 10deg);
+    }
+}
+@keyframes animateCats5 {
+    0% {
+        border-radius: 100%;
+    }
+    100% {
+        border-radius: 25%;
+    }
+}
+@keyframes animateCats6 {
+    0% {
+        transform: translateX(10vw);
+    }
+    100% {
+        transform: translateX(0vw);
+    }
+}
+@keyframes animateCats7 {
+    0% {
+        filter: grayscale(0%);
+    }
+    100% {
+        filter: grayscale(100%);
+    }
+}
+@keyframes animateCats8 {
+    0% {
+        transform: translateY(10vw);
+    }
+    100% {
+        transform: translateY(0vw);
+    }
+}
+@keyframes animateCats9 {
+    0% {
+        transform: rotateX(20deg);
+    }
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#catcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    margin-left: 20%;
+    #cat1 {
+        width: 20vw;
+        height: 30vh;
+        animation: 2s ease-in 0s 1 animateCats1;
+    }
+    #cat2 {
+        width: 20vw;
+        height: 30vh;
+        animation: 3s ease-in 0.5s 1 animateCats2;
+    }
+    #cat3 {
+        width: 20vw;
+        height: 30vh;
+        animation: 4s ease-in 1s 1 animateCats3;
+    }
+    #cat4 {
+        width: 20vw;
+        height: 30vh;
+        animation: 5s ease-in 1.5s 1 animateCats4;
+    }
+    #cat5 {
+        width: 20vw;
+        height: 30vh;
+        animation: 3s ease-in 2s 1 animateCats5;
+    }
+    #cat6 {
+        width: 20vw;
+        height: 30vh;
+        animation: 8s ease-in 2.5s 1 animateCats6;
+    }
+    #cat7 {
+        width: 20vw;
+        height: 30vh;
+        animation: 5s ease-in 3s 1 animateCats7;
+    }
+    #cat8 {
+        width: 20vw;
+        height: 30vh;
+        animation: 6s ease-in 3.5s 1 animateCats8;
+    }
+    #cat9 {
+        width: 20vw;
+        height: 30vh;
+        animation: 8s ease-in 4s 1 animateCats9;
+    }
+}
+
