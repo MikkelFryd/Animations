@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 @-webkit-keyframes animateCats1 {
   0% {
     opacity: 0;
@@ -188,16 +200,9 @@
   }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  text-align: center;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+.animatedCats {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 #catcontainer {
@@ -212,63 +217,81 @@ h1 {
 #catcontainer #cat1 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 2s ease-in 0s 1 animateCats1;
-          animation: 2s ease-in 0s 1 animateCats1;
+  -webkit-animation: 5.5s ease-in 0.5s 2 animateCats1;
+          animation: 5.5s ease-in 0.5s 2 animateCats1;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat2 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 3s ease-in 0.5s 1 animateCats2;
-          animation: 3s ease-in 0.5s 1 animateCats2;
+  -webkit-animation: 3.5s ease-in 1s 2 animateCats2;
+          animation: 3.5s ease-in 1s 2 animateCats2;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat3 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 4s ease-in 1s 1 animateCats3;
-          animation: 4s ease-in 1s 1 animateCats3;
+  -webkit-animation: 2.5s ease-in 1.5s 2 animateCats3;
+          animation: 2.5s ease-in 1.5s 2 animateCats3;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat4 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 5s ease-in 1.5s 1 animateCats4;
-          animation: 5s ease-in 1.5s 1 animateCats4;
+  -webkit-animation: 5s ease-in 2s 2 animateCats4;
+          animation: 5s ease-in 2s 2 animateCats4;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat5 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 3s ease-in 2s 1 animateCats5;
-          animation: 3s ease-in 2s 1 animateCats5;
+  -webkit-animation: 3s ease-in 2.5s 2 animateCats5;
+          animation: 3s ease-in 2.5s 2 animateCats5;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat6 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 8s ease-in 2.5s 1 animateCats6;
-          animation: 8s ease-in 2.5s 1 animateCats6;
+  -webkit-animation: 4s ease-in 3s 2 animateCats6;
+          animation: 4s ease-in 3s 2 animateCats6;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat7 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 5s ease-in 3s 1 animateCats7;
-          animation: 5s ease-in 3s 1 animateCats7;
+  -webkit-animation: 5s ease-in 3.5s 2 animateCats7;
+          animation: 5s ease-in 3.5s 2 animateCats7;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat8 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 6s ease-in 3.5s 1 animateCats8;
-          animation: 6s ease-in 3.5s 1 animateCats8;
+  -webkit-animation: 6s ease-in 4s 2 animateCats8;
+          animation: 6s ease-in 4s 2 animateCats8;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 #catcontainer #cat9 {
   width: 20vw;
   height: 30vh;
-  -webkit-animation: 8s ease-in 4s 1 animateCats9;
-          animation: 8s ease-in 4s 1 animateCats9;
+  -webkit-animation: 8s ease-in 4.5s 2 animateCats9;
+          animation: 8s ease-in 4.5s 2 animateCats9;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 /*# sourceMappingURL=main.css.map */
